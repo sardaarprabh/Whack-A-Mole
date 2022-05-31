@@ -1,0 +1,67 @@
+*{
+  box-sizing: border-box;
+  margin:0px;
+  padding: 0px;
+  font-family: 'League Gothic';
+}
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('grass.jpg');
+  color: white;
+}
+.mainheading{
+  display: flex;
+  margin-right: 100px;
+}
+.headImage{
+  width: 100px;
+  height: 100px;
+}
+.gameName{
+  font-size: 100px;
+  
+}
+.head{
+  display: flex;
+  justify-content: center;
+}
+.score{
+  font-size: 30px;
+  display: flex;
+}
+.time{
+  margin-left: 30px;
+  font-size: 30px;
+  display: flex;
+}
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  width: 456px;
+  height: 456px;
+}
+.square{
+  cursor: pointer;
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  margin: 1px;
+} 
+
+.mole{
+  background-image: url('mole.png');
+  background-size: 170px 160px;
+}
+button{
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+  border: none;
+padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+}
